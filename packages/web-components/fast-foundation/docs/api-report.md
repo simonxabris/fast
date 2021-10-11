@@ -2668,6 +2668,8 @@ export class VirtualizingStackBase extends FoundationElement {
     gridTemplateColumns: string;
     // @internal (undocumented)
     gridTemplateRows: string;
+    // @internal (undocumented)
+    gridTemplateSpans: string;
     // (undocumented)
     items: object[];
     // @beta (undocumented)
