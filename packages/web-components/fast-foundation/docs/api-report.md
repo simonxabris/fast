@@ -616,6 +616,8 @@ export class DataGrid extends VirtualizingStackBase {
     defaultRowItemTemplate: ViewTemplate;
     // @internal (undocumented)
     disconnectedCallback(): void;
+    // (undocumented)
+    focus(): void;
     focusColumnIndex: number;
     focusRowIndex: number;
     static generateColumns: (row: object) => ColumnDefinition[];
