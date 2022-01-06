@@ -2677,7 +2677,6 @@ export abstract class VirtualizingStackBase extends FoundationElement {
     gridTemplateSpans: string;
     // @internal
     handleChange(source: any, splices: Splice[]): void;
-    // (undocumented)
     items: object[];
     // @beta (undocumented)
     itemSpan: number;
@@ -2706,7 +2705,7 @@ export abstract class VirtualizingStackBase extends FoundationElement {
     viewportBuffer: number;
     // @beta
     viewportElement: HTMLElement;
-    // @beta (undocumented)
+    // @beta
     virtualize: boolean;
     // @internal
     virtualizedIndexOffset: number;
