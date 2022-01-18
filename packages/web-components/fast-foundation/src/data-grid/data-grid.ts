@@ -258,6 +258,14 @@ export class DataGrid extends VirtualList {
     }
 
     /**
+     * Accounts for css grids not being zero based, the spacer span, and the start region
+     *
+     * @internal
+     */
+    @observable
+    public virtualizedIndexOffset: number = 2;
+
+    /**
      *
      *
      * @internal
