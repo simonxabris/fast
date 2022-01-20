@@ -2678,8 +2678,6 @@ export type VerticalPosition = "top" | "bottom" | "center" | "unset";
 
 // @public
 export class VirtualList extends FoundationElement {
-    // (undocumented)
-    protected allowLayoutUpdateDelay: boolean;
     // @beta
     autoUpdateMode: VirtualListAutoUpdateMode;
     // @internal (undocumented)
