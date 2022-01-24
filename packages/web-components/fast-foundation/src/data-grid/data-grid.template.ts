@@ -38,7 +38,6 @@ export const dataGridTemplate: (context, definition) => ViewTemplate<DataGrid> =
         <template
             role="grid"
             tabindex="0"
-            layout-update-delay="100"
             auto-update-mode="viewport-resize"
             :rowElementTag="${() => rowTag}"
             :defaultRowItemTemplate="${rowItemTemplate}"
