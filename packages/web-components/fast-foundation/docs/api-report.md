@@ -2773,7 +2773,7 @@ export class VirtualList extends FoundationElement {
     endSpacerSpan: number;
     // @internal
     firstRenderedIndex: number;
-    getGeneratedItemPosition: (itemIndex: number) => number;
+    getItemSpanMap: (itemIndex: number) => SpanMap | null;
     // @internal
     handleChange(source: any, splices: Splice[]): void;
     items: object[];
@@ -2790,7 +2790,7 @@ export class VirtualList extends FoundationElement {
     // @internal
     startSpacerSpan: number;
     // @internal
-    totalStackSpan: number;
+    totalListSpan: number;
     update(): void;
     // @beta
     viewport: string;
