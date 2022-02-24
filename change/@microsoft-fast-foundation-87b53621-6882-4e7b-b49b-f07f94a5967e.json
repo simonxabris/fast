@@ -1,0 +1,7 @@
+{
+  "type": "patch",
+  "comment": "feat: expose aria-description attribute",
+  "packageName": "@microsoft/fast-foundation",
+  "email": "abris96@gmail.com",
+  "dependentChangeType": "patch"
+}
