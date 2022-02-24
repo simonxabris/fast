@@ -231,13 +231,13 @@ export class ARIAGlobalStatesAndProperties {
     public ariaRelevant: "additions" | "additions text" | "all" | "removals" | "text";
 
     /**
-     * Defines a human-readable, author-localized description for the role of an element.
+     * Defines a human-readable, author-localized description for the element.
      *
-     * {@link https://www.w3.org/TR/wai-aria-1.1/#aria-roledescription}
+     * {@link https://www.w3.org/TR/wai-aria-1.1/#aria-description}
      * @public
      * @remarks
-     * HTML Attribute: aria-roledescription
+     * HTML Attribute: aria-description
      */
-    @attr({ attribute: "aria-roledescription", mode: "fromView" })
-    public ariaRoledescription: string;
+    @attr({ attribute: "aria-description", mode: "fromView" })
+    public ariaDescription: string;
 }
